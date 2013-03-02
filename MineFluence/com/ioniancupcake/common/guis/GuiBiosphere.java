@@ -1,14 +1,14 @@
-package MineFluence.com.ioniancupcake.src.guis;
+package guis;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.InventoryPlayer;
-import net.minecraft.item.ItemStack;
 import net.minecraft.util.StatCollector;
 
 import org.lwjgl.opengl.GL11;
 
-import MineFluence.com.ioniancupcake.common.containers.ContainerBiosphere;
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
+import tileentitys.TileEntityBiosphere;
+import containers.ContainerBiosphere;
+
 
 public class GuiBiosphere extends GuiContainer
 {

@@ -1,11 +1,11 @@
-package MineFluence.com.ioniancupcake.common.containers;
+package containers;
 
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
+import tileentitys.TileEntityBiosphere;
 
 public class ContainerBiosphere extends Container
 {

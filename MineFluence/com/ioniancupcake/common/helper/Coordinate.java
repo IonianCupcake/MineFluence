@@ -1,4 +1,4 @@
-package MineFluence.com.ioniancupcake.common.helper;
+package helper;
 
 public class Coordinate {
 	

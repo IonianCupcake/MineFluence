@@ -1,11 +1,11 @@
-package MineFluence.com.ioniancupcake.common.handler;
+package handler;
 
-import MineFluence.com.ioniancupcake.common.containers.ContainerBiosphere;
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
-import MineFluence.com.ioniancupcake.src.guis.GuiBiosphere;
+import guis.GuiBiosphere;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
+import tileentitys.TileEntityBiosphere;
+import containers.ContainerBiosphere;
 import cpw.mods.fml.common.network.IGuiHandler;
 
 public class GuiHandlerMineFluence implements IGuiHandler 

@@ -1,8 +1,8 @@
-package MineFluence.com.ioniancupcake.common.tileentitys;
+package tileentitys;
 
-import MineFluence.MineFluence;
-import MineFluence.com.ioniancupcake.common.guis.BiosphereRecipes;
-import MineFluence.com.ioniancupcake.common.multiblockstructures.MultiblockstructureBiosphere;
+import guis.BiosphereRecipes;
+import main.MineFluence;
+import multiblockstructures.MultiblockstructureBiosphere;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;

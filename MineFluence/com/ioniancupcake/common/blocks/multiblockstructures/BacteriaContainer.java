@@ -1,14 +1,13 @@
-package MineFluence.com.ioniancupcake.common.blocks.multiblockstructures;
+package blocks.multiblockstructures;
 
+import main.MineFluence;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-import MineFluence.MineFluence;
-import MineFluence.com.ioniancupcake.common.blocks.Multiblockstructureblock;
-import MineFluence.com.ioniancupcake.common.tileentitys.BacteriaContainerTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.CardSlotTileEntity;
+import tileentitys.BacteriaContainerTileEntity;
+import blocks.Multiblockstructureblock;
 
 public class BacteriaContainer extends Multiblockstructureblock
 {

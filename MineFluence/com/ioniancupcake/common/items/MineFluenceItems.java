@@ -1,4 +1,4 @@
-package MineFluence.com.ioniancupcake.common.items;
+package items;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

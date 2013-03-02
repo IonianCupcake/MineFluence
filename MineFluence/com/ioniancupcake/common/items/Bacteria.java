@@ -1,13 +1,11 @@
-package MineFluence.com.ioniancupcake.common.items;
+package items;
+
+import guis.BiosphereRecipes;
 
 import java.util.HashMap;
 
-import MineFluence.MineFluence;
-import MineFluence.com.ioniancupcake.common.guis.BiosphereRecipes;
-
-import cpw.mods.fml.common.registry.LanguageRegistry;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
+import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class Bacteria extends MineFluenceItems{
 

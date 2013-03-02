@@ -1,11 +1,11 @@
-package MineFluence.com.ioniancupcake.common.blocks;
+package blocks;
 
 import java.util.List;
 import java.util.Random;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-
+import main.MineFluence;
+import multiblockstructures.Multiblockstructure;
+import multiblockstructures.MultiblockstructureBase;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -16,12 +16,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-import MineFluence.MineFluence;
-import MineFluence.com.ioniancupcake.common.multiblockstructures.Multiblockstructure;
-import MineFluence.com.ioniancupcake.common.multiblockstructures.MultiblockstructureBase;
-import MineFluence.com.ioniancupcake.common.tileentitys.BacteriaContainerTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.CardSlotTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
+import tileentitys.BacteriaContainerTileEntity;
+import tileentitys.CardSlotTileEntity;
+import tileentitys.TileEntityBiosphere;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class Multiblockstructureblock extends BlockContainer
 {
@@ -43,6 +42,14 @@ public class Multiblockstructureblock extends BlockContainer
 		textureFront = par2;
 		textureActivatedTopBot = par4;
 		textureActivatedFront = par5;
+	}
+	
+	public Multiblockstructureblock(int par1, int par2, int par3)
+	{
+		super(par1, 0, Material.rock);
+		this.setCreativeTab(CreativeTabs.tabBlock);
+		textureTopBot = par3;
+		textureFront = par2;
 	}
 	
 	public int damageDropped(int par14)
@@ -327,7 +334,6 @@ public class Multiblockstructureblock extends BlockContainer
 			 if(var1 != null)
 			 {
 				 int[] var2 = getBlocksInCoords(var1, par1World);
-				 boolean test = true;
 				 System.out.println(cardSlotsCount);
 				 System.out.println(bacteriaContainersCount);
 				 System.out.println(displaysCount);

@@ -1,7 +1,6 @@
-package MineFluence.com.ioniancupcake.common.items;
+package items;
 
 import cpw.mods.fml.common.registry.LanguageRegistry;
-import net.minecraft.item.ItemStack;
 
 public class MineFluenceEnvironmentcard extends MineFluenceItems {
 

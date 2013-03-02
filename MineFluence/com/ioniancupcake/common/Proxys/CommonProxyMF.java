@@ -1,4 +1,5 @@
-package MineFluence.com.ioniancupcake.common;
+package Proxys;
+
 
 public class CommonProxyMF {
 	

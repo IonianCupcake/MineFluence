@@ -1,9 +1,8 @@
-package MineFluence.com.ioniancupcake.common.worldgen;
+package worldgen;
  
 import java.util.Random;
 
-import MineFluence.MineFluence;
-
+import main.MineFluence;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;

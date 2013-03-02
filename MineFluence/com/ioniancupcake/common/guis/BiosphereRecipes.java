@@ -1,4 +1,4 @@
-package MineFluence.com.ioniancupcake.common.guis;
+package guis;
 
 import java.util.HashMap;
 import java.util.Map;

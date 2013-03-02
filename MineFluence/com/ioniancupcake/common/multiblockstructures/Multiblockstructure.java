@@ -1,12 +1,11 @@
-package MineFluence.com.ioniancupcake.common.multiblockstructures;
+package multiblockstructures;
 
+import main.MineFluence;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
-import MineFluence.MineFluence;
-import MineFluence.com.ioniancupcake.common.helper.Coordinate;
-import MineFluence.com.ioniancupcake.common.tileentitys.BacteriaContainerTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.CardSlotTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
+import tileentitys.BacteriaContainerTileEntity;
+import tileentitys.CardSlotTileEntity;
+import tileentitys.TileEntityBiosphere;
 
 public class Multiblockstructure 
 {

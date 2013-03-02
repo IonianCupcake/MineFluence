@@ -1,4 +1,4 @@
-package MineFluence.com.ioniancupcake.common.tileentitys;
+package tileentitys;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;

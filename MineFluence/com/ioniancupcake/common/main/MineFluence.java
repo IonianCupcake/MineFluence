@@ -1,25 +1,24 @@
-package MineFluence;
+package main;
 
-import MineFluence.com.ioniancupcake.common.CommonProxyMF;
-import MineFluence.com.ioniancupcake.common.blocks.MineFluenceBlocks;
-import MineFluence.com.ioniancupcake.common.blocks.Multiblockstructureblock;
-import MineFluence.com.ioniancupcake.common.blocks.multiblockstructures.BacteriaContainer;
-import MineFluence.com.ioniancupcake.common.blocks.multiblockstructures.CardSlot;
-import MineFluence.com.ioniancupcake.common.blocks.multiblockstructures.Display;
-import MineFluence.com.ioniancupcake.common.guis.BiosphereRecipes;
-import MineFluence.com.ioniancupcake.common.handler.GuiHandlerMineFluence;
-import MineFluence.com.ioniancupcake.common.items.Bacteria;
-import MineFluence.com.ioniancupcake.common.items.MineFluenceItems;
-import MineFluence.com.ioniancupcake.common.tileentitys.BacteriaContainerTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.CardSlotTileEntity;
-import MineFluence.com.ioniancupcake.common.tileentitys.TileEntityBiosphere;
-import MineFluence.com.ioniancupcake.common.worldgen.MineFluenceWorldGenerator;
+import guis.BiosphereRecipes;
+import handler.GuiHandlerMineFluence;
+import items.Bacteria;
+import items.MineFluenceItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockPane;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
+import tileentitys.BacteriaContainerTileEntity;
+import tileentitys.CardSlotTileEntity;
+import tileentitys.TileEntityBiosphere;
+import worldgen.MineFluenceWorldGenerator;
+import Proxys.CommonProxyMF;
+import blocks.MineFluenceBlocks;
+import blocks.Multiblockstructureblock;
+import blocks.multiblockstructures.BacteriaContainer;
+import blocks.multiblockstructures.CardSlot;
+import blocks.multiblockstructures.Display;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
 import cpw.mods.fml.common.Mod.Instance;
@@ -39,7 +38,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class MineFluence{
 	
-	@SidedProxy (clientSide = "MineFluence.com.ioniancupcake.src.ClientProxyMF", serverSide = "MineFluence.com.ioniancupcake.common.CommonProxyMF")
+	@SidedProxy (clientSide = "Proxys.ClientProxyMF", serverSide = "Proxys.CommonProxyMF")
 	public static CommonProxyMF proxy;
 	@Instance("MineFluence")
 	public static MineFluence instance; 
@@ -52,6 +51,7 @@ public class MineFluence{
 	public static net.minecraft.block.Block cardSlot;
 	public static net.minecraft.block.Block display;
 	public static net.minecraft.block.Block bacteriaContainer;
+	
 	public static net.minecraft.item.Item Tip;
 	public static net.minecraft.item.Item ingotDisinfectedIron;
 	public static net.minecraft.item.Item ingotIod;
