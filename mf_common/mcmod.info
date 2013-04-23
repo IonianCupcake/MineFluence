@@ -1,0 +1,20 @@
+[
+{
+  "modid": "MineFluence",
+  "name": "MineFluence",
+  "description": "Breed your bacterias and get powerful weapons! Use cell division to breed your own bacteria army",
+  "version": "1.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "nicosio2"
+  ],
+  "credits": "By nicosio2, Textures by killa65",
+  "logoFile": "/mods/minefluence/textures/logo/MineFluence.png",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
